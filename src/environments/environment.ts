@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiBaseUrl: 'https://tagomapi.runasp.net'
+  apiBaseUrl: '/api' // هنستخدم البروكسي على Vercel
 };
