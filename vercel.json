@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "builds": [{ "src": "angular.json", "use": "@vercel/static-build" }],
   "routes": [
     { "src": "^/api/(.*)$", "dest": "https://tagomapi.runasp.net/$1" },
     { "handle": "filesystem" },
